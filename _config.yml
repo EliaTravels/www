@@ -1,0 +1,27 @@
+permalink: pretty
+
+theme: jekyll_patternbot
+
+#build settings
+incremental: true
+
+plugins:
+  - jekyll-babel
+
+patternbot:
+  title: "Elia Travel Group"
+  description: |
+    Escapes to Nature that allow you to be off
+  font_url: "https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap"
+  colors:
+    background: "--color-secondary-light"
+    patterns:
+      brand.logos: "--color-primary-highlight"
+
+  rationales:
+    colors.primary: |
+      the primary color is inherited from the prev brand design process, it is best for backgrounds.
+    typefaces.primary: |
+      this type is to create harmony to the secondary type that is used on the headings, not to confuse the user.
+    typefaces.secondary: |
+      this type was selected to to similate the possitioning of Hippos in their pool, the brands icon.

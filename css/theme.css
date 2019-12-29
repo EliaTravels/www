@@ -1,0 +1,49 @@
+:root {
+  --color-primary: #3F4D37;
+  --color-primary-green: #629f55;
+  --color-primary-warn: #e08f1d;
+  --color-primary-brown: #655142;
+  --color-secondary: #8F957C;
+  --color-secondary-dark: #8F957C ;
+  --color-secondary-semi-dark: #A5A285;
+  --color-secondary-light: #9CB5BC;
+  --font-primary: 'Nunito', sans-serif;
+}
+
+ul {
+  line-height: 1.5em;
+  margin: 5px 0 15px;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+  position: relative;
+  padding: 0 0 0 20px;
+}
+
+
+/*@utility apply thumb-up-list */
+.thumb-up-list li::before {
+  content: "👍";
+}
+
+/*@utility apply thumb-down-list */
+.thumb-down-list li::before {
+  content: "👎";
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+}
+
+a {
+  color: var(--color-primary-green);
+}
+
